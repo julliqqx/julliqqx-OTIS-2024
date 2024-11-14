@@ -259,8 +259,8 @@ int main() {
     else {
         cout << "there is no hamiltonian cycle" << endl;
     }
-    gr spanningTree = graph.getSpanningTree();
-    spanningTree.showGraph();
+    graph spanningTree = gr.spanningtree();
+    spanningTree.show_graph();
     return 0;
 }
 ```
