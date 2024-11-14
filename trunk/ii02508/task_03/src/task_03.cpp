@@ -136,23 +136,23 @@ private:
 
 int main() {
     setlocale(LC_ALL, "ru");
-    graph graph;
+    graph gr;
 
-    graph.add_node(0);
-    graph.add_node(1);
-    graph.add_node(2);
-    graph.add_node(3);
-    graph.add_node(4);
+    gr.add_node(0);
+    gr.add_node(1);
+    gr.add_node(2);
+    gr.add_node(3);
+    gr.add_node(4);
 
-    graph.add_edge(0, 1);
-    graph.add_edge(1, 2);
-    graph.add_edge(2, 3);
-    graph.add_edge(3, 4);
-    graph.add_edge(4, 0);
+    gr.add_edge(0, 1);
+    gr.add_edge(1, 2);
+    gr.add_edge(2, 3);
+    gr.add_edge(3, 4);
+    gr.add_edge(4, 0);
 
-    graph.show_graph();
+    gr.show_graph();
 
-    if (vector<int> eulerianCycle = graph.get_eulerian_cycle(); !eulerianCycle.empty()) {
+    if (vector<int> eulerianCycle = gr.get_eulerian_cycle();  !eulerianCycle.empty()) {
         cout << "eulerian cycle: ";
         for (int node : eulerianCycle) {
             cout << node << " ";
@@ -163,8 +163,8 @@ int main() {
         cout << "there is no eulerian cycle" << endl;
     }
 
-    vector<int> hamiltonianCycle = graph.get_hamiltonian_cycle();
-    if (vector<int> new_hamiltonian_cycle = graph.get_hamiltonian_cycle(); !newHamiltonianCycle.empty()) {
+    vector<int> hamiltonianCycle = gr.get_hamiltonian_cycle();
+    if (vector<int> new_hamiltonian_cycle = gr.get_hamiltonian_cycle(); !new_hamiltonian_cycle.empty()) {
         cout << "hamiltonian cycle: ";
         for (int node : hamiltonianCycle) {
             cout << node << " ";
@@ -174,7 +174,7 @@ int main() {
     else {
         cout << "there is no hamiltonian cycle" << endl;
     }
-    graph spanningTree = graph.getSpanningTree();
+    gr spanningTree = graph.getSpanningTree();
     spanningTree.showGraph();
     return 0;
 }
