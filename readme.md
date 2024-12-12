@@ -18,7 +18,7 @@
 |----|----------------------|-----------------------------|----|----|----|----|----|----|----|---------|
 | 1  | Заседатель Никита    |[ii02509](./trunk/ii02509/)|✅|✅|||||||
 | 2  | Гродзинский Алексей  |[ii0230279](./trunk/ii0230279/)|✅|✅||||||
-| 3  | Андреюк Максим       |[ii02503](./truk/ii02503/)|✅|✅|||||||
+| 3  | Андреюк Максим       |[ii02503](./truk/ii02503/)|✅|✅|✅||||||
 | 4  | Подгайский Денис     |[ii0230293](./trunk/ii0230293)|✅|✅|||||||
 | 5  | Мохорева Татьяна     |[ii0230290](trunk/ii0230290/)|✅|✅|✅||||||
 | 6  |Трошин Иван|[ii02506](trunk/ii02506)|✅|✅|✅|✅|✅|✅|||
@@ -74,3 +74,4 @@
 |24|Прокопюк Артем|[ii02612](./trunk/ii02612/)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:||||
 |25|Рубцов Дмитрий|[ii02613](./trunk/ii02613/)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:||||
 |26|Ерошин Егор|[ii00230304](./trunk/ii00230304/)|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|:white_check_mark:|||||
+
